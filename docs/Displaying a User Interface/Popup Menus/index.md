@@ -91,11 +91,10 @@ const success = await sdlManager.getScreenManager().preloadChoices([cell, fullCe
 ### Presenting a Menu
 To show a popup menu to the user, you must present the menu. If some or all of the cells in the menu have not yet been preloaded, calling the `present` API will preload the cells and then present the menu once all the cells have been uploaded. Calling `present` without preloading the cells can take longer than if the cells were preloaded earlier in the app's lifecycle especially if your cell has voice commands. Subsequent menu presentations using the same cells will be faster because the library will reuse those cells (unless you have deleted them).
 
-##### Menu - List
-![SYNC® 3 - List Only Interaction Layout](assets/SYNC3_popup_menu_row.bmp)
-
-##### Menu - Icon
-![SYNC® 3 - Icon Only Interaction Layout](assets/SYNC3_popup_menu_tiles.bmp)
+[carousel!]
+![SYNC® 3 - List Only Interaction Layout](assets/SYNC3_popup_menu_row.bmp "Menu - List")
+![SYNC® 3 - Icon Only Interaction Layout](assets/SYNC3_popup_menu_tiles.bmp "Menu - Icon")
+[!carousel]
 
 !!! NOTE
 When you preload a cell, you **do not** need to maintain a reference to it. If you reuse a cell with the same properties that has already been preloaded (or previously presented), the cell will automatically be reused.
@@ -203,11 +202,10 @@ It may seem that the answer is to always use `both`. However, remember that you 
 | VR only           | Interactions occur only through text-to-speech and voice recognition |
 | Both              | Interactions can occur both manually or through VR |
 
-##### Menu - Manual Only Mode
-![SYNC® 3 - Menu - Manual Only](assets/SYNC3_popup_menu_row.bmp)
-
-##### Menu - Voice Only Mode
-![SYNC® 3 - Menu - Voice Only](assets/SYNC3_popup_menu_voice_recognition.bmp)
+[carousel!] 
+![SYNC® 3 - Menu - Manual Only](assets/SYNC3_popup_menu_row.bmp "Menu - Manual Only Mode")
+![SYNC® 3 - Menu - Voice Only](assets/SYNC3_popup_menu_voice_recognition.bmp "Menu - Voice Only Mode")
+[!carousel]
 
 @![iOS]
 |~
@@ -320,13 +318,10 @@ choiceSet.cancel();
 ### Duplicate Cell Titles
 Starting with SDL @![javascript]v1.3.0+!@@![android, javaEE, javaSE]v5.1+!@@![iOS]v7.1+!@ choice cells no longer require unique titles in order to be presented. For example, if you are trying to display points of interest as a list you can now have multiple locations with the same name but are not the same location. You cannot present multiple cells that are exactly the same. They must have some property that makes them different, such as `secondaryText` or an artwork.
 
-##### RPC v7.1+ Connections
-The titles on the choice set will be displayed as provided even if there are duplicate titles.
-![Choice Set with duplicate names RPC 7.1+](assets/Choice_cell_duplicate_names_7_1.png)
-
-##### RPC v7.0 And Below Connections
-The titles on the choice set will have a number appended to them when there are duplicate titles.
-![Choice Set with duplicate names](assets/Choice_cell_duplicate_names.png)
+[carousel!] 
+![Choice Set with duplicate names RPC 7.1+](assets/Choice_cell_duplicate_names_7_1.png "RPC v7.1+ Connections - The titles on the choice set will be displayed as provided even if there are duplicate titles.")
+![Choice Set with duplicate names](assets/Choice_cell_duplicate_names.png "RPC v7.0 And Below Connections - The titles on the choice set will have a number appended to them when there are duplicate titles.")
+[!carousel] 
 
 ## Using RPCs
 If you don't want to use the @![iOS]`SDLScreenManager`!@@![android, javaSE, javaEE,javascript]`ScreenManager`!@, you can do this manually using the `Choice`, `CreateInteractionChoiceSet`, and `PerformInteraction`. You will need to create `Choice`s, bundle them into `CreateInteractionChoiceSet`s. As this is no longer a recommended course of action, we will leave it to you to figure out how to manually do it.
