@@ -108,11 +108,10 @@ Soft buttons, menu icons, and primary / secondary graphics can all be templated.
 ### Templated Images Example
 In the screenshots below, the shuffle and repeat icons have been templated. In night mode, the icons are tinted white and in day mode the icons are tinted black.
 
-##### Night Mode
-![Generic - Template Images Dark Mode](assets/Generic_template_media_dark.png)
-
-##### Day Mode
-![Generic - Template Images Light Mode](assets/Generic_template_media_light.png)
+[carousel!]
+![Generic - Template Images Dark Mode](assets/Generic_template_media_dark.png "Night Mode")
+![Generic - Template Images Light Mode](assets/Generic_template_media_light.png "Day Mode")
+[!carousel]
 
 @![iOS]
 |~
