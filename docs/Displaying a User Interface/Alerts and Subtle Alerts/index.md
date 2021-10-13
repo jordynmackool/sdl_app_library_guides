@@ -36,15 +36,14 @@ An alert is a large pop-up window showing a short message with optional buttons.
 
 Depending on the platform, an alert can have up to three lines of text, a progress indicator (e.g. a spinning wheel or hourglass), and up to four soft buttons.  
 
-##### Alert With No Soft Buttons
-![Generic - Alert](assets/Generic_alert.png)
+[carousel!]
+![Generic - Alert](assets/Generic_alert.png "Alert With No Soft Buttons")
+![Generic - Alert](assets/Generic_alert_buttons.png "Alert With Soft Buttons")
+[!carousel]
 
 !!! NOTE
 If no soft buttons are added to an alert some modules may add a default "cancel" or "close" button.
 !!!
-
-##### Alert With Soft Buttons
-![Generic - Alert](assets/Generic_alert_buttons.png)
 
 ### Creating the AlertView
 Use the @![android,javaSE,javaEE, javascript]`AlertView`!@@![iOS]`SDLAlertView`!@ to set all the properties of the alert you want to present.
@@ -420,11 +419,10 @@ Depending on the platform, a subtle alert can have up to two lines of text and u
 Because `SubtleAlert` is not currently supported in the `ScreenManager`, you need to be careful when setting soft buttons or cancel ids to ensure that they do not conflict with those used by the `ScreenManager`. The `ScreenManager` takes soft button ids 0 - 10000 and cancel ids 0 - 10000. Ensure that if you use custom RPCs that the soft button ids and cancel ids are outside of this range.
 !!!
 
-##### Subtle Alert With No Soft Buttons
-![Generic - Subtle Alert](assets/Generic_subtleAlert.png)
-
-##### Subtle Alert With Soft Buttons
-![Generic - Subtle Alert](assets/Generic_subtleAlert_buttons.png)
+[carousel!]
+![Generic - Subtle Alert](assets/Generic_subtleAlert.png "Subtle Alert With No Soft Buttons")
+![Generic - Subtle Alert](assets/Generic_subtleAlert_buttons.png "Subtle Alert With Soft Buttons")
+[!carousel]
 
 ### Creating the Subtle Alert
 The following steps show you how to add text, images, buttons, and sound to your subtle alert. Please note that at least one line of text or the "text-to-speech" chunks must be set in order for your subtle alert to work. 
