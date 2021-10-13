@@ -310,11 +310,10 @@ if (success === true) {
 ### Highlighting a Soft Button
 When a button is highlighted its background color will change to indicate that it has been selected. 
 
-#### Highlight On
-![Generic HMI](assets/ford_sync3_soft_button_highlight_on.png)
-
-#### Highlight Off
-![Generic HMI](assets/ford_sync3_soft_button_highlight_off.png)
+[carousel!]
+![Generic HMI](assets/ford_sync3_soft_button_highlight_on.png "Highlight On")
+![Generic HMI](assets/ford_sync3_soft_button_highlight_off.png "Highlight Off")
+[!carousel]
 
 @![iOS]
 |~
