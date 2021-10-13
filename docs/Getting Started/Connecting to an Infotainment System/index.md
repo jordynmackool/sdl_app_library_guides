@@ -121,11 +121,8 @@ If you are using Manticore, the app connection information can be easily added i
 ## Running the SDL App
 Once you have a configured instance of Core running, you should see your SDL app name appear in a box on HMI. However, nothing will happen when you tap on the box until you build and run your SDL app.
 
-![Generic - SDL Apps Tab](assets/Generic_apps_screen.png)
-
-Once your SDL app is running, either locally in an IDE or on a server, you will be able to launch the SDL app by clicking on the app icon in the HMI.
-
-![Generic - SDL App Main Screen](assets/Generic_non_media.png)
-
-This is the main screen of your SDL app. If you get to this point, your SDL app is working.
+[carousel!]
+![Generic - SDL Apps Tab](assets/Generic_apps_screen.png "Once your SDL app is running, either locally in an IDE or on a server, you will be able to launch the SDL app by clicking on the app icon in the HMI.")
+![Generic - SDL App Main Screen](assets/Generic_non_media.png "This is the main screen of your SDL app. If you get to this point, your SDL app is working.")
+[!carousel]
 !@
