@@ -14,11 +14,12 @@ On some newer head units, you may have the option to display menu items as a gri
 !@
 
 @![iOS, android, javaEE, javaSE]
-#### List Menu Layout
-![Generic - Menu Appearance List Layout](assets/Generic_list_layout_dark.png)
 
-#### Grid Menu Layout
-![Generic - Menu Appearance Grid Layout](assets/Generic_grid_layout_dark.png)
+[carousel!]
+![Generic - Menu Appearance List Layout](assets/Generic_list_layout_dark.png "List Menu Layout")
+![Generic - Menu Appearance Grid Layout](assets/Generic_grid_layout_dark.png "Grid Menu Layout")
+[!carousel]
+
 !@
 
 @![iOS]
@@ -157,13 +158,11 @@ If you are doing this manually, you must use the `DeleteCommand` and `DeleteSubM
 ### Duplicate Menu Titles
 Starting with SDL !@@![android, javaEE, javaSE]v5.1+!@@![iOS]v7.1+!@@![iOS, android, javaEE, javaSE] menu cells and sub-menu cells no longer require unique titles in order to be presented. For example, if you are trying to display points of interest as a list you can now have multiple locations with the same name but are not the same location. You cannot present multiple cells that are exactly the same. They must have some property that makes them different, such as `secondaryText` or an artwork.
 
-##### RPC v7.1+ Connections
-The titles on the menu will be displayed as provided even if there are duplicate titles.
-![Menu with duplicate titles RPC 7.1+](assets/Menu_duplicate_titles_7_1.png)
+[carousel!]
+![Menu with duplicate titles RPC 7.1+](assets/Menu_duplicate_titles_7_1.png "RPC v7.1+ Connections - The titles on the menu will be displayed as provided even if there are duplicate titles.")
+![Menu with duplicate titles RPC 7.0 and below](assets/Menu_duplicate_titles.png "RPC v7.0 And Below Connections - The titles on the menu will have a number appended to them when there are duplicate titles.")
+[!carousel]
 
-##### RPC v7.0 And Below Connections
-The titles on the menu will have a number appended to them when there are duplicate titles.
-![Menu with duplicate titles RPC 7.0 and below](assets/Menu_duplicate_titles.png)
 !@
 
 ## Using RPCs
