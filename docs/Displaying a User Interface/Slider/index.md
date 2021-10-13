@@ -7,6 +7,7 @@ The slider will persist on the screen until the timeout has elapsed or the user 
 
 A slider popup with a static footer displays a single, optional, footer message below the slider UI. A dynamic footer can show a different message for each slider position.
 
+## Slider UI
 [carousel!]
 ![Slider with Static Footer 1](assets/StaticFooter.png "Slider UI")
 ![Slider with Dynamic Footer 1](assets/DynamicFooter1.png "Dynamic Slider in Position 1")
