@@ -139,7 +139,7 @@ There are fifteen standard templates to choose from, however some head units may
 
 [carousel!]
 ![Generic - Media without progress bar](assets/GenericHMI/Generic_Default_Media.png "Media")
-![Generic - Media with progress bar](assets/GenericHMI/Generic_media_dark.png "Media (with a Progress Bar)"
+![Generic - Media with progress bar](assets/GenericHMI/Generic_media_dark.png "Media (with a Progress Bar)")
 ![Generic - Non-Media](assets/GenericHMI/Generic_non_media.png "Non-Media")
 ![Generic - Graphic with Text](assets/GenericHMI/Generic_graphic_with_text.png "Graphic with Text")
 ![Generic - Text with Graphic](assets/GenericHMI/Generic_text_with_graphic.png "Text with Graphic")
