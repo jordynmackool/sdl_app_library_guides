@@ -74,13 +74,10 @@ If you are testing with a vehicle head unit or TDK and wish to see realtime debu
 ## Running the SDL App
 Build and run the project in !@@![iOS]Xcode!@@![android]Android Studio!@@![javascript]Node.js!@@![iOS,android,javascript], targeting the device or simulator that you want to test your app with. Your app should compile and launch on your device of choosing. If your connection configuration is setup correctly, you should see your SDL app icon appear on the HMI screen:
 
-![Generic - SDL Apps Tab](assets/Generic_apps_screen.png)
-
-To open your app, click on your app's icon in the HMI.
-
-![Generic - SDL App Main Screen](assets/Generic_non_media.png)
-
-This is the main screen of your SDL app. If you get to this point, your SDL app is working.
+[carousel!]
+![Generic - SDL Apps Tab](assets/Generic_apps_screen.png "To open your app, click on your app's icon in the HMI.")
+![Generic - SDL App Main Screen](assets/Generic_non_media.png "This is the main screen of your SDL app. If you get to this point, your SDL app is working.")
+[!carousel]
 
 ### Troubleshooting 
 If you are having issues with connecting to an emulator or head unit, please see our [troubleshooting tips](Getting Started/Example Apps) in the Example Apps section of the guide. 
